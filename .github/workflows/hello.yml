@@ -10,3 +10,8 @@ jobs:
         run: echo "Hello, GitHub Actions!"
       - name: Print another message
         run: echo "Shubham Goyal"
+  say-bye:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print goodbye message
+        run: echo "Goodbye from second job!"
